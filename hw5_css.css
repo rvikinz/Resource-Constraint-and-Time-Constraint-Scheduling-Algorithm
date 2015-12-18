@@ -1,0 +1,116 @@
+/*
+    Please only use the following colors in your assignments. 
+    
+    // Grays
+    lightest-gray:             #FBFBFB;
+    lighter-gray:              #D8D8D8;
+    light-gray:                #CCCCCC;
+    gray:                      #888888;
+    darker-gray:               #666666;
+    darkest-gray:              #333333;
+
+    // Oranges
+    lightest-orange:           #FFDAC1;
+    lighter-orange:            #F9D8BC;
+    light-orange:              #FFB789;
+    pale-orange:               #E8B493;
+    accent-orange:             #E68142;
+    orange:                    #c60;
+    dark-orange:               #AB4600;
+
+    // Blues
+    lighter-blue:              #87ADD2;
+    light-blue:                #6685A8;
+    dark-blue:                 #5780A6;
+    darker-blue:               #576E91;
+
+    // Greens
+    green:                     #738033;
+
+    // Reds
+    light-red:                 #FF4949;
+    red:                       #BB0404;
+    dark-red:                  #880000;
+
+    // Yellows
+    light-yellow:              #FFD364;
+    yellow:                    #EAB51F;
+    dark-yellow:               #D39F0D;
+
+    // Black & white
+    black:                     #000000;
+    white:                     #FFFFFF;
+*/
+
+body {
+   background-color: white;
+}
+
+.assignment-container {
+   border:        1px solid #333333;
+   height:        500px;
+   margin-bottom: 10px;
+   width:         700px;
+}
+
+.button-container {
+   overflow:    visible;
+   white-space: nowrap;
+   width:       650px;
+   word-wrap:   none;
+}
+
+.container-label {
+   font-size: 20px;
+   display: block;
+}
+
+.example-button {
+   background-color: #c60;
+   border:           none;
+   color:            white;
+   cursor:           pointer;
+   font-size:        16px;
+   height:           30px;
+   margin:           0 2px 5px 0;
+   white-space:      nowrap;
+   width:            100px;
+}
+
+.default-button {
+   background-color: #c60;
+   border:           none;
+   color:            white;
+   cursor:           pointer;
+   font-size:        18px;
+   height:           40px;
+   margin-bottom:    5px;
+   
+}
+
+.reset-button {
+    width: 100px;
+}
+
+.run-button {
+    width: 285px;
+}
+
+.reset-button:hover, .run-button:hover {
+   background-color: #AB4600;
+}
+
+.textarea-style {
+   height:        170px;
+   margin-bottom: 15px;
+   width:         230px;
+}
+
+.textarea-wide {
+   width:         400px;
+}
+/* 
+  Add any additional CSS rules below 
+  Please avoid using !important in any rules
+*/
+

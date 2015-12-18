@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8"/>
+    <head>
+        <script src="jquery-2.1.4.js"></script>
+        <script src="jcanvas.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="hw5_css.css"/>
+    </head>
+<body>
+<button number='1' class='example-button'>Example 1</button>
+  <button number='2' class='example-button'>Example 2</button>
+  <button number='3' class='example-button'>Example 3</button>
+  <table>
+    <tr>
+      <td>
+          Resources: <input type='number' id='resouceAmount' value='0'/>
+      </td>
+      <td>
+          Time: <input type='number' id='timeContraint' value='0'/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+         <span class='container-label'>Inputs:</span> 
+        <textarea id='inputData' class='textarea-style'></textarea>
+      </td>
+      <td>
+         <span class='container-label'>Output:</span> 
+        <textarea id='outputData' class='textarea-style textarea-wide'></textarea>
+      </td>
+    </tr>
+  </table>
+  
+  <div class='button-container'>
+      <button class='default-button run-button' mode='0'>Run using resource constraint</button>
+      <button class='default-button run-button' mode='1'>Run using time constraint</button>
+      <button class='default-button reset-button'>Reset</button>
+  </div>
+
+  <span class='container-label'>Canvas:</span> 
+  <div id='assignmentContainer' class='assignment-container'><canvas id='drawingCanvas' height='500' width='700'></canvas></div>
+    <script src="mainFile.js"></script>
+    </body>
+</html>
